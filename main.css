@@ -1,0 +1,75 @@
+@import url('https://rsms.me/inter/inter.css');
+label,table{
+    font-family: 'Inter', sans-serif; 
+    padding-left: 1%;
+    font-size:12px;
+}
+body{
+    background-color: #f6f6f6;
+}
+.container{
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    background-color: #ffffff;
+    margin:3% 3%;
+}
+.first{
+    width: 1430px;
+    height: 250px;
+}
+.second{
+    width: 1430px;
+    height: 280px;
+}
+.third{
+    width: 1430px;
+    height: 163px;
+}
+.header{
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding-left: 1%;
+    padding-top:1% ;
+}
+.box{
+    width: 344px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    opacity: 0.5;
+}
+label{
+    display: inline-block;
+    width:150px;
+}
+.right{
+    padding-left:12%;
+}
+.opt1,.opt2{
+    padding-left: 13%;
+}
+a{
+    text-decoration-line: none;
+    padding:4% 20%;
+    background:#319cea;
+    color:white;
+    border-radius:5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.6px;
+}
+.end{
+    display: flex;
+    margin-left: 75%;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}

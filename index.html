@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+    <div class="container first">
+        <h1 class="header one">Personal Details</h1>
+    <table>
+        <tr>
+            <td class="left side">First Name<span style="color: red;">*</span><br><br><input type="text" name="fname" id="fname" class="box fname" placeholder="Placeholder"></td>
+            <td class="right side">Last Name <span style="color: red;">*</span><br><br><input type="text" name="lname" id="lname" class="box lname" placeholder="Placeholder"></td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td class="left side">Email<span style="color: red;">*</span><br><br><input type="email" name="mail" id="mail" class="box mail" placeholder="Placeholder"></td>
+            <td class="right side">Mobile Number<span style="color: red;">*</span><br><br><input type="tel" name="number" id="number" class="box number" placeholder="Placeholder"></td>
+        </tr>
+    </table>
+    </div>
+    <div class="container second">
+        <h1 class="header two">Academic Details</h1>
+        <div class="academic">
+            <label for="college">College Name<span style="color: red;">*</span></label>
+            <input type="text" name="college" id="college" class=" box college" placeholder="Placeholder"><br>
+            <br>
+            <label for="dept">Department Name<span style="color: red;">*</span></label>
+            <input type="text" name="dept" id="dept" class=" box dept" placeholder="Placeholder"><br>
+            <br>
+            <label for="roll">Roll Number</label>
+            <input type="text" name="roll" id="roll" class=" box roll" placeholder="Placeholder"><br>
+            <br>
+            <label for="graduate">Graduating Year</label>
+            <input type="text" name="graduate" id="graduate" class="box graduate" placeholder="Placeholder">
+        </div>
+    </div>
+    <div class="container third">
+        <h1 class="header three">Other Details</h1>
+        <div>
+                <label for="area">Area of interest<span style="color: red;">*</span></label>
+                <input type="text" name="interest" id="interest" class="box interest" placeholder="Placeholder">
+                <label for="hobb" class="opt1">Hobby<span style="color: red;">*</span></label>
+                <input type="text" name="hob" id="hob" class="box hob" placeholder="Placeholder">
+        </div>
+        <div>
+                <br>
+                <label for="graduatex">Graduating Year</label>
+                <input type="text" name="graduate" id="graduate" class="box graduate" placeholder="Placeholder">
+                <label for="graduatey" class= "opt2">Graduating Year</label>
+                <input type="text" name="graduate" id="graduate" class="box graduate" placeholder="Placeholder">
+        </div>
+    </form>
+    <div class="end">
+        <a href="#">Edit</a>
+        <a href="#">Save</a>
+    </div>
+</body>
+</html>
